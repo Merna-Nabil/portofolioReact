@@ -1,0 +1,36 @@
+.services-wrapper {
+  padding: 0 3rem;
+  display: flex;
+  height: 90vh;
+  margin-bottom: 8rem;
+  margin-top: 9rem;
+}
+.services-wrapper .awesome {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.services-wrapper .awesome > :nth-child(1) {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.services-wrapper .awesome > :nth-child(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+}
+.services-wrapper .awesome > :nth-child(3) {
+  color: var(--gray);
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+.services-wrapper .awesome .s-button {
+  width: 8rem;
+  height: 2rem;
+}
+.services-wrapper .cards {
+  position: relative;
+}
+.services-wrapper .cards > * {
+  position: absolute;
+}/*# sourceMappingURL=services.css.map */

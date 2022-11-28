@@ -1,0 +1,40 @@
+.experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  height: 30vh;
+  margin-bottom: 8rem;
+}
+.experience .achevement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.experience .achevement .cricle {
+  width: 4rem;
+  height: 4rem;
+  background-color: white;
+  border-radius: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.experience .achevement .cricle::before {
+  content: "";
+  border-radius: 100%;
+  background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c 100%);
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+  z-index: -1;
+}
+.experience .achevement > :nth-child(3) {
+  color: var(--orange);
+}/*# sourceMappingURL=experience.css.map */
